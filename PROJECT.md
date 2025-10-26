@@ -20,7 +20,7 @@ O projeto **Giro do Mercado ETL** é um pipeline completo de extração, transfo
 1. **Coleta** 110+ notícias do Money Times via web scraping
 2. **Valida e normaliza** os dados usando regras rigorosas
 3. **Enriquece** com dados históricos de Bitcoin (6 meses)
-4. **Armazena** em banco analítico DuckDB com 5 tabelas relacionadas
+4. **Armazena** em banco analítico DuckDB com 3 tabelas relacionadas
 5. **Audita** todas as execuções para rastreabilidade
 
 ### Objetivos Principais
@@ -668,4 +668,5 @@ def normalizar_url(url):
 - [Pandas User Guide](https://pandas.pydata.org/docs/)
 
 ---
+
 
