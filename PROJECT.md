@@ -428,7 +428,7 @@ python-dateutil==2.8.2        # Date utilities
 | Transformação | 10-15 seg | Validação + normalização |
 | Deduplicação | 5-10 seg | Hash + remoção duplicatas |
 | Enriquecimento Bitcoin | 10-20 seg | yfinance + merge |
-| Carga DuckDB | 5 seg | Criação 5 tabelas |
+| Carga DuckDB | 5 seg | Criação 4 tabelas |
 | **TOTAL** | **~4-6 min** | **Pipeline completo** |
 
 **Tamanho de dados:**
@@ -668,6 +668,7 @@ def normalizar_url(url):
 - [Pandas User Guide](https://pandas.pydata.org/docs/)
 
 ---
+
 
 
 
