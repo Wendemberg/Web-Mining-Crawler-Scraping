@@ -63,7 +63,7 @@ O projeto **Giro do Mercado ETL** é um pipeline completo de extração, transfo
                        ↓
     ETAPA 3: CARGA (DuckDB)
     ┌──────────────────────────────────────────┐
-    │ Criação de 5 tabelas relacionadas:       │
+    │ Criação de 4 tabelas relacionadas:       │
     │ • tb_noticias                            │
     │ • tb_metricas                            │
     │ • tb_ativo                               │                 │
@@ -668,5 +668,6 @@ def normalizar_url(url):
 - [Pandas User Guide](https://pandas.pydata.org/docs/)
 
 ---
+
 
 
